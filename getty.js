@@ -54,10 +54,11 @@ var args = [];
 // process.env['LANG'] = 'en_US.utf8';
 // process.env['LANGUAGE'] = 'en_US:';
 var opts = {
-  cwd: '/root',
+  cwd: process.cwd(),
   env: process.env,
   stdio: [ttyi,ttyo,ttye]
 };
+var prog = cp.spawn(comm,args,opts);
 
 // Cleanup
 fs.close(ttyi);
@@ -65,7 +66,6 @@ fs.close(ttyo);
 fs.close(ttye);
 
 // Handle Exits
-var prog = cp.spawn(comm,args,opts);
 prog.on('error',function(err){
   console.log('Error Spawning Shell %s: %s',shell,err);
 });
