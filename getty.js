@@ -41,8 +41,8 @@ var ttye = us.dup(tty);
 
 // Write a nice header that clears the screen first
 // fs.writeSync(ttyo,'\033[2J\033[1;1H\n');
-fs.writeSync(ttyo,'Welcome to NodeOS\n');
-fs.writeSync(ttyo,'-----------------\n\n');
+//fs.writeSync(ttyo,'Welcome to NodeOS\n');
+//fs.writeSync(ttyo,'-----------------\n\n');
 
 // Normal Node.js child process magic
 var comm = shell;
