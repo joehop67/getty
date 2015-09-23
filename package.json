@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Node Getty Replacement",
   "dependencies": {
-  	"src-unistd": "netlovers/node-src-unistd",
-  	"src-termios": "netlovers/node-src-termios"
+  	"src-unistd": "NodeOS/node-src-unistd",
+  	"src-termios": "NodeOS/node-src-termios"
   },
   "bin": {
     "getty": "getty.js"
