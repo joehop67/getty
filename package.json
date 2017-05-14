@@ -6,9 +6,7 @@
     "unistd": "^0.0.0",
     "src-termios": "NodeOS/node-src-termios"
   },
-  "bin": {
-    "getty": "getty.js"
-  },
+  "bin": "server.js",
   "author": "Jacob Groundwater <groundwater@gmail.com>",
   "license": "MIT"
 }
