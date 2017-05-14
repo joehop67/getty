@@ -1,7 +1,7 @@
 {
-  "name": "bin-getty",
+  "name": "@nodeos/getty",
   "version": "0.0.0",
-  "description": "Node Getty Replacement",
+  "description": "NodeOS getty terminal controller replacement",
   "dependencies": {
     "unistd": "^0.0.0",
     "@nodeos/termios": "^0.0.0"
