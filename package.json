@@ -4,7 +4,7 @@
   "description": "Node Getty Replacement",
   "dependencies": {
     "unistd": "^0.0.0",
-    "src-termios": "NodeOS/node-src-termios"
+    "@nodeos/termios": "^0.0.0"
   },
   "bin": "server.js",
   "author": "Jacob Groundwater <groundwater@gmail.com>",

@@ -5,7 +5,7 @@ console.log('Starting nodeos-getty');
 var cp = require('child_process');
 var fs = require('fs');
 
-var io = require('src-termios');
+var io = require('@nodeos/termios');
 var us = require('unistd');
 
 // Defaults
