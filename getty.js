@@ -6,10 +6,10 @@ var cp = require('child_process');
 var fs = require('fs');
 
 var io = require('src-termios');
-var us = require('src-unistd');
+var us = require('unistd');
 
 // Defaults
-// On Ubuntu /dev/console and /dev/tty0 are aliases for the 
+// On Ubuntu /dev/console and /dev/tty0 are aliases for the
 // current TTY. The *actual* console is /dev/tty1
 //
 // Should migrate these to --tty=XXX and --shell=XXX
