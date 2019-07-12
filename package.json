@@ -1,5 +1,5 @@
 {
-  "name": "@joehop67/getty",
+  "name": "@nodeos/getty",
   "version": "0.0.1",
   "description": "NodeOS getty terminal controller replacement",
   "dependencies": {
