@@ -5,7 +5,8 @@
   "dependencies": {
     "@nodeos/termios": "^0.0.0",
     "nan": "^2.14.0",
-    "unistd": "^0.0.0"
+    "unistd": "^0.0.0",
+    "nodeos-nodejs": "^8.4.0"
   },
   "bin": {
     "getty": "server.js"
