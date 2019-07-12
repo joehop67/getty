@@ -1,10 +1,11 @@
 {
-  "name": "@nodeos/getty",
-  "version": "0.0.0",
+  "name": "@joehop67/getty",
+  "version": "0.0.1",
   "description": "NodeOS getty terminal controller replacement",
   "dependencies": {
-    "unistd": "^0.0.0",
-    "@nodeos/termios": "^0.0.0"
+    "@nodeos/termios": "^0.0.0",
+    "nan": "^2.14.0",
+    "unistd": "^0.0.0"
   },
   "bin": {
     "getty": "server.js"
@@ -18,10 +19,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NodeOS/getty.git"
+    "url": "git+https://github.com/joehop67/getty.git"
   },
   "bugs": {
-    "url": "https://github.com/NodeOS/getty/issues"
+    "url": "https://github.com/joehop67/getty/issues"
   },
-  "homepage": "https://github.com/NodeOS/getty#readme"
+  "homepage": "https://github.com/joehop67/getty#readme"
 }
